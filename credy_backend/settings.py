@@ -26,9 +26,6 @@ SECRET_KEY = '(uh=e+z!e4)z6-$=75ay6w#^9@&%@z4--6k1ejj2na6^xy(d5%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -163,3 +160,4 @@ MEDIA_URL = '/media/'
 # For this Assignment
 CORS_ORIGIN_ALLOW_ALL = True
 
+ALLOWED_HOSTS = ['*']
